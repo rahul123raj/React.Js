@@ -1,0 +1,32 @@
+.toggleansques button{
+    width: 400px;
+    font-family: monospace;
+    padding: 7px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 1px solid rgb(31, 177, 226);
+    background-color: lightblue;    
+}
+
+.toggleansques{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* background-color: blueviolet; */
+    
+}
+
+.toggleansques #id{
+    /* margin-left: 8px; */
+
+    flex-grow: 1; 
+    text-align: left;
+}
+
+.toggleansques #arrow{
+    /* margin-right: 5px; */
+    margin-left: 10px;
+}

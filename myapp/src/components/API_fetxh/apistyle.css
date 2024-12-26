@@ -1,0 +1,188 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.apiapp{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.apifix1{
+    position: fixed;
+    background: linear-gradient(rgba(58, 57, 57, 0.308),rgba(0, 0, 0, 0.418));
+    display: grid;
+    grid-template-columns: 80%;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.apiapp .apinavbar{
+    width: 20%;
+    height: 100vh;
+    background: violet;
+    position: fixed;
+    left: 0;
+}
+
+.apiapp .webpage{
+    width: 80%;
+    height: 100vh;
+    margin-left: 20%;
+}
+
+.api-header{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine; 
+    display: grid;
+    place-items: center;
+    font-size: x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px darkred;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+
+}
+
+.apinavbar li a{
+    font-size: larger;
+    line-height: 50px;
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: bolder;
+}
+.apinavbar ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+/* ============shopping=========== */
+.cards-container .container{
+    display: grid;
+    grid-template-columns: auto 33rem auto;
+    column-gap: 30px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 20px black;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40vh;
+    background-color: whitesmoke;
+    z-index: 2;
+}
+
+.cards-container{
+    margin-top: 60px;
+}
+
+
+.cards-container .images{
+    width: 20vw;
+    height: 25vh;
+}
+
+.cards-container img{
+    width: 100%;
+    height: 100%; 
+    margin-left: 20px;
+}
+
+.cards-container #title{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(57, 57, 235);
+}
+
+.cards-container .des{
+    margin-top: 30px;
+}
+
+.cards-container span:first-of-type{
+    background: rgb(57, 57, 235);
+    color: white;font-weight: bolder;
+    border-radius: 4px;
+
+}
+
+.cards-container span:nth-of-type(2){
+    filter: brightness(0.5);
+    margin-left: 10px;
+    color: silver;
+    font-style: oblique;
+}
+
+.cards-container .des p:first-of-type{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    font-style: oblique;
+}
+
+.cards-container .des p:nth-of-type(2){
+    word-spacing: 4px;
+    color:rgb(39, 39, 39);
+    padding-bottom: 30px;
+    display: block;                 /* Ensure it's a block-level element */
+    white-space: normal;            /* Allow wrapping */
+    overflow: hidden;               /* Hide overflow */
+    text-overflow: ellipsis;        /* Add ellipsis */
+    max-height: 4.5em;              /* Height for 3 lines */
+    line-height: 1.5em;             /* Line height */
+    word-wrap: break-word;          /* Ensure long words are wrapped */
+}
+
+.cards-container .price p{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 30px;
+}
+
+/* ===========movies=============== */
+.searchmovies{
+    background-color: lightcoral;
+    height: 100vh;
+}
+.searchmovies .searchfield{
+    /* background-color: yellow; */
+    height: 20vh;
+    width: 80%;
+    position: absolute;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchmovies .searchfield input{
+    width: 20rem;
+    height: 3rem;
+}
+
+.searchmovies .searchfield button{
+    width: 5rem;
+    height: 3rem;
+}
+
+.moviecard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 40px;
+    
+    
+    /* position: absolute;
+    top: 200px;
+    left:400px; */
+}

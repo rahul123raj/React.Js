@@ -1,0 +1,16 @@
+table{
+    width: 80%; 
+    border-collapse: collapse;
+    margin:  2rem auto; 
+}
+
+th,td{
+    padding: 12px; 
+    text-align: left; 
+    border: 1px solid black; 
+    text-transform: capitalize;
+}
+
+.container img{
+    height: 60px;
+}

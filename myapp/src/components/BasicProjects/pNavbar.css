@@ -1,0 +1,203 @@
+.projects{
+    display: flex;
+}
+
+.p-navbar .container{
+    background: linear-gradient(to left, white, rgba(0, 140, 255, 0.623), rgb(2, 137, 182));
+    width: 20vw;
+    height: 100vh;
+}
+
+.p-navbar .header{
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.container ul{
+    line-height: 70px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container ul li a {
+    color: darkred; /* Add your desired color here */
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.container ul li a:hover {
+    color: rgb(228, 90, 90);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.projects .project-area{
+    background-color: aquamarine;
+    width: 80vw;
+    height: 100vh;
+}
+
+/* ------------------generateOTP -------------- */
+
+.generateOtp{
+    background: linear-gradient(to right,white,rgb(30, 186, 248),rgba(50, 50, 221, 0.795));
+    height: 100vh;
+    width: 80vw;
+}
+
+.generateOtp .header, .digitalclock .header, .calculator .header{
+    height: 15vh;
+    color: rgb(5, 198, 247);
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: oblique;
+    letter-spacing: 2px;
+    background: linear-gradient(darkolivegreen,lightgreen);
+
+}
+
+/* ---------------changecolor------------------ */
+.colorchange{
+ background-color: skyblue;
+ height: 100vh;
+}
+
+.colorchange .header{
+    background: linear-gradient(to right, silver,skyblue);
+    height: 100px;
+    color: white;
+}
+
+/* ==================changecolor2-------------------- */
+
+.colorChange2{
+    background-color: skyblue;
+    height: 100vh;
+   }
+   
+   .colorChange2 .header{
+       background: linear-gradient(to right, silver,skyblue);
+       height: 100px;
+       color: white;
+   }
+
+   .colorChange2 .box{
+        margin: auto;
+        width: 30vw;
+        height: 30vh;
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0px 0px 50px black;
+   }
+
+   .box h1{
+    padding: 20px;
+   }
+   
+   /* ===============volume====================== */
+
+   .volume .container{
+    width: 30vw;
+    height: 10vh;
+    border-radius: 25px;
+    background-color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+
+   .volume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   }
+
+   .volume input{
+    -webkit-appearance: none;
+    background-color: rgb(215, 252, 6);
+    border-radius: 30px;
+    width: 150px;
+    cursor: pointer;
+   }
+
+   /* ==============daynoghtmode==================== */
+
+   .daynight .container{
+    width: 20vw;
+    background-color: bisque;
+    height: 10vh;
+    margin: 10rem auto;
+    border-radius: 30px;
+   }
+
+   .daynight button{
+    height: 100%;
+    width:50%;
+    margin-right: 50%;
+    border-radius: 30px;
+    transition: all 1s;
+   }
+
+   .daynight{
+    height: 100vh;
+    background-color: chartreuse;
+   }
+
+    .day{
+        margin-left:0% ;
+    }
+
+    .night{
+        margin-left: 50%;
+    }
+
+    /* =============calculator================= */
+
+    .calculator .container tr, .calculator .container td, .calculator .container th{
+        border: 1px solid black;
+        font-size: larger;
+        font-weight: bolder;
+        box-shadow: inset 0px 0px 30px rgb(245, 161, 161);
+        border-radius: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .calculator .container th{
+        height: 5rem;
+    }
+
+    .calculator input{
+        width: 99%;
+        height: 100%;
+        border: none;
+        border-bottom: 2px;
+        outline: none;
+        font-size: larger;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .calculator input:hover{
+        filter: brightness(0.9);
+    }
+
+    .calculator .container td{
+        width: 50px;
+        height: 50px;
+    }
+
+    .calculator .container td:hover{
+        filter: brightness(0.5);
+    }
+
+    .calculator table{
+        width: 20vw;
+        height: 40vh;
+        margin: 5rem auto;
+        /* border-collapse: collapse; */
+    }
